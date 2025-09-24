@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="CashLoop Éthique : bâtissez une machine à revenus automatiques grâce à la publicité responsable, l'affiliation sélectionnée et les dons récurrents sans vendre de services."
+  />
+  <title>CashLoop Éthique – La machine à revenus responsable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo" aria-label="CashLoop Éthique">CashLoop<span>Éthique</span></div>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#leviers">Leviers</a></li>
+          <li><a href="#simulateur">Simulateur</a></li>
+          <li><a href="#vitrine">Inventaire</a></li>
+          <li><a href="#preuves">Preuves</a></li>
+          <li><a href="#inscription">Activer</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#inscription">Lancer la machine</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="vision">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="hero-badge">Revenus 100% automatiques & éthiques</span>
+          <h1>
+            Transformez votre audience en <strong>cash-flow continu</strong> sans vendre de services ni de produits.
+          </h1>
+          <p>
+            CashLoop Éthique assemble pour vous des leviers de monétisation passifs&nbsp;: publicité responsable,
+            affiliation sélective et contributions volontaires. Vous pilotez l’algorithme, nous fournissons la structure,
+            les contenus et la conformité.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#leviers">Découvrir les leviers</a>
+            <a class="btn ghost" href="#simulateur">Projections de gains</a>
+          </div>
+          <ul class="hero-metrics" role="list">
+            <li>
+              <span class="metric" id="metric-ads">0€</span>
+              <span class="label">Revenus pub responsables / jour</span>
+            </li>
+            <li>
+              <span class="metric" id="metric-affil">0€</span>
+              <span class="label">Commissions d'affiliation validées / mois</span>
+            </li>
+            <li>
+              <span class="metric" id="metric-don">0€</span>
+              <span class="label">Dons récurrents via communauté</span>
+            </li>
+          </ul>
+        </div>
+        <aside class="hero-card" aria-labelledby="panel-title">
+          <div class="card-header">
+            <h2 id="panel-title">Panneau de gains</h2>
+            <p>Choisissez un scénario pour visualiser l’impact combiné des leviers automatiques.</p>
+          </div>
+          <div class="card-body">
+            <div class="mix-selector" role="group" aria-label="Scénarios de monétisation">
+              <button class="mix-btn active" type="button" data-mix="lancement">Boost lancement</button>
+              <button class="mix-btn" type="button" data-mix="croissance">Croissance organique</button>
+              <button class="mix-btn" type="button" data-mix="communautaire">Communauté fidèle</button>
+            </div>
+            <dl class="mix-kpis">
+              <div>
+                <dt>CPM moyen</dt>
+                <dd id="mix-cpm">0€</dd>
+              </div>
+              <div>
+                <dt>Taux clic affiliés</dt>
+                <dd id="mix-click">0%</dd>
+              </div>
+              <div>
+                <dt>Taux donateurs</dt>
+                <dd id="mix-don">0%</dd>
+              </div>
+            </dl>
+            <div class="mix-projection">
+              <h3>Gains mensuels estimés</h3>
+              <p><strong id="mix-revenu">0€</strong> en combinant publicité, affiliation et dons responsables.</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <p class="disclaimer">Les algorithmes excluent les pratiques addictives et respectent la réglementation locale.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="levers" id="leviers">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">3 moteurs synchronisés</span>
+          <h2>Votre site devient une machine à cash autonome et responsable</h2>
+          <p>
+            Nous orchestrons plusieurs flux monétisables qui fonctionnent en continu, sans nécessiter de produit ni de
+            service à vendre.
+          </p>
+        </header>
+        <div class="levers-grid">
+          <article class="lever-card">
+            <h3>Publicité durable</h3>
+            <p>
+              Réseau d’annonceurs premium, ciblage contextuel et bandeaux à rotation automatique. Vous gagnez à chaque
+              impression utile sans nuire à l’expérience.
+            </p>
+            <ul>
+              <li>CPM négociés jusqu’à 28€</li>
+              <li>Optimisation automatique viewability & brand safety</li>
+              <li>Dashboard en temps réel + paiements mensuels</li>
+            </ul>
+          </article>
+          <article class="lever-card">
+            <h3>Affiliation sélective</h3>
+            <p>
+              Catalogue d’offres crypto, finance positive ou gaming responsable. L’IA recommande les liens les plus
+              performants selon vos audiences.
+            </p>
+            <ul>
+              <li>Bibliothèque de 170 programmes validés</li>
+              <li>Tracking cookieless compatible RGPD</li>
+              <li>Commission moyenne 68€ par vente</li>
+            </ul>
+          </article>
+          <article class="lever-card">
+            <h3>Dons & membres</h3>
+            <p>
+              Mini-portefeuille intégré pour tips, dons récurrents et objectifs communautaires. Motivation par badges,
+              sans incitation addictive.
+            </p>
+            <ul>
+              <li>0% de frais côté donateur</li>
+              <li>Automatisation des relances et remerciements</li>
+              <li>Accès privé à des contenus bonus générés par IA</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="engine" id="engine">
+      <div class="container engine-grid">
+        <div class="engine-copy">
+          <span class="eyebrow">Pipeline automatisé</span>
+          <h2>Un cycle complet qui convertit chaque visite en opportunité de revenu</h2>
+          <p>
+            Des contenus evergreen générés par IA, une distribution multi-plateforme et des boucles d’engagement créent un
+            trafic constant. Chaque étape maximise un levier de monétisation différent.
+          </p>
+          <ul class="engine-steps">
+            <li><strong>Attraction :</strong> SEO, shorts vidéo et newsletters programmées.</li>
+            <li><strong>Activation :</strong> Landing interactives avec placements dynamiques.</li>
+            <li><strong>Monétisation :</strong> Bannières responsables, liens affiliés, dons.</li>
+            <li><strong>Fidélisation :</strong> Challenges hebdo, salons audio, récompenses.</li>
+          </ul>
+        </div>
+        <div class="engine-panel" aria-live="polite">
+          <h3>Distribution automatique</h3>
+          <p>Programmez un contenu, CashLoop le réplique partout et déclenche la monétisation.</p>
+          <div class="engine-ticker" id="engine-ticker" role="log"></div>
+          <div class="engine-kpis">
+            <div>
+              <span id="engine-seo">0</span>
+              <small>articles SEO planifiés</small>
+            </div>
+            <div>
+              <span id="engine-reels">0</span>
+              <small>vidéos courtes / semaine</small>
+            </div>
+            <div>
+              <span id="engine-mail">0</span>
+              <small>séquences email actives</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="simulator" id="simulateur">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">Calculateur instantané</span>
+          <h2>Projetez les gains automatiques selon votre trafic</h2>
+          <p>Modifiez les hypothèses pour voir comment la machine convertit vos visites en revenus combinés.</p>
+        </header>
+        <form class="simulator-grid" aria-describedby="simulateur-resultats">
+          <div class="input-group">
+            <label for="input-traffic">Visiteurs mensuels</label>
+            <input id="input-traffic" type="number" min="0" value="18000" />
+          </div>
+          <div class="input-group">
+            <label for="input-cpm">CPM publicitaire (€)</label>
+            <input id="input-cpm" type="number" min="0" step="0.1" value="18" />
+          </div>
+          <div class="input-group">
+            <label for="input-fill">% vues monétisées</label>
+            <input id="input-fill" type="number" min="0" max="100" step="1" value="68" />
+          </div>
+          <div class="input-group">
+            <label for="input-click">% clics affiliés</label>
+            <input id="input-click" type="number" min="0" max="100" step="0.1" value="2.8" />
+          </div>
+          <div class="input-group">
+            <label for="input-conv">% conversions affiliés</label>
+            <input id="input-conv" type="number" min="0" max="100" step="0.1" value="8.5" />
+          </div>
+          <div class="input-group">
+            <label for="input-commission">Commission moyenne (€)</label>
+            <input id="input-commission" type="number" min="0" step="1" value="62" />
+          </div>
+          <div class="input-group">
+            <label for="input-donateurs">% visiteurs donateurs</label>
+            <input id="input-donateurs" type="number" min="0" max="100" step="0.1" value="1.6" />
+          </div>
+          <div class="input-group">
+            <label for="input-don">Don moyen (€)</label>
+            <input id="input-don" type="number" min="0" step="1" value="12" />
+          </div>
+          <button id="btn-calculer" type="button" class="btn primary">Calculer</button>
+        </form>
+        <section class="simulator-results" id="simulateur-resultats" aria-live="polite">
+          <article>
+            <h3>Publicité</h3>
+            <p class="result" id="result-ads">0€</p>
+            <p class="result-sub">net / mois</p>
+          </article>
+          <article>
+            <h3>Affiliation</h3>
+            <p class="result" id="result-affil">0€</p>
+            <p class="result-sub">validé / mois</p>
+          </article>
+          <article>
+            <h3>Dons</h3>
+            <p class="result" id="result-dons">0€</p>
+            <p class="result-sub">collectés / mois</p>
+          </article>
+          <article class="result-total">
+            <h3>Total mensuel</h3>
+            <p class="result" id="result-total">0€</p>
+            <p class="result-sub">soit <span id="result-journalier">0€</span> / jour</p>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <section class="showcase" id="vitrine">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">Inventaire prêt à diffuser</span>
+          <h2>Un hub média optimisé pour monétiser chaque pixel</h2>
+        </header>
+        <div class="showcase-grid">
+          <aside class="showcase-menu" role="tablist" aria-label="Formats disponibles">
+            <button class="showcase-tab active" type="button" role="tab" aria-selected="true" data-slot="banner">
+              Megabannière responsive
+            </button>
+            <button class="showcase-tab" type="button" role="tab" aria-selected="false" data-slot="video">
+              Capsule vidéo sponsorisée
+            </button>
+            <button class="showcase-tab" type="button" role="tab" aria-selected="false" data-slot="newsletter">
+              Bloc newsletter premium
+            </button>
+          </aside>
+          <div class="showcase-panel" role="presentation">
+            <article class="slot" data-slot="banner">
+              <h3>Megabannière contextuelle</h3>
+              <p>
+                Diffuse des créations adaptatives en fonction du thème de la page. L’IA ajuste le message et la couleur
+                pour maximiser le clic sans agressivité.
+              </p>
+              <ul>
+                <li>Formats 970x250 & 728x90 inclus</li>
+                <li>Rotation 30 secondes par créa</li>
+                <li>Brand safety certifiée IAB</li>
+              </ul>
+            </article>
+            <article class="slot hidden" data-slot="video">
+              <h3>Capsule vidéo sponsorisée</h3>
+              <p>
+                Intégration native d’une vidéo courte avec CTA interactif. Paiement au visionnage complet et brand lift
+                mesuré.
+              </p>
+              <ul>
+                <li>Jusqu’à 65€ CPM vidéo complété</li>
+                <li>Player sans cookie tiers</li>
+                <li>Multi-langues auto générées</li>
+              </ul>
+            </article>
+            <article class="slot hidden" data-slot="newsletter">
+              <h3>Bloc newsletter premium</h3>
+              <p>
+                Monétisez vos emails grâce à des modules sponsorisés dynamiques. Les annonceurs réservent directement dans
+                le calendrier partagé.
+              </p>
+              <ul>
+                <li>Tarifs 140€ à 420€ l’envoi</li>
+                <li>Segmentation intelligente par intérêt</li>
+                <li>Rapport d’impact livré sous 24h</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof" id="preuves">
+      <div class="container proof-grid">
+        <div class="proof-card">
+          <h3>Cas réel</h3>
+          <p>
+            «&nbsp;Nous avons branché CashLoop sur notre blog d’actualité crypto. En 90 jours, la publicité responsable a
+            couvert nos coûts et les dons ont financé deux rédacteurs.&nbsp;»
+          </p>
+          <span class="author">— Julie, Fondatrice CryptoZen</span>
+        </div>
+        <div class="proof-card">
+          <h3>Chiffres clés</h3>
+          <ul>
+            <li>+312% de revenus publicitaires en 4 mois</li>
+            <li>38% des commissions viennent d'offres green fintech</li>
+            <li>1 450 donateurs actifs avec 0 plainte support</li>
+          </ul>
+        </div>
+        <div class="proof-card">
+          <h3>Garantie éthique</h3>
+          <p>
+            Audit mensuel de conformité, scoring anti-addiction, transparence totale sur les partenaires et capacité de
+            retrait instantané si un annonceur ne respecte pas votre charte.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="inscription">
+      <div class="container">
+        <div class="cta-card">
+          <div class="cta-copy">
+            <h2>Activez CashLoop et laissez la machine encaisser pour vous</h2>
+            <p>
+              Nous connectons votre site, configurons les flux de contenus et lançons les trois leviers en moins de sept
+              jours ouvrés. Aucun produit ni offre commerciale n’est requis de votre part.
+            </p>
+          </div>
+          <form class="cta-form">
+            <label for="input-email" class="sr-only">Adresse e-mail</label>
+            <input id="input-email" type="email" placeholder="Votre email" required />
+            <label for="input-site" class="sr-only">URL du site</label>
+            <input id="input-site" type="url" placeholder="URL de votre site" required />
+            <button type="submit" class="btn primary">Planifier l’activation</button>
+            <p class="form-disclaimer">Aucun spam. Audit gratuit et plan d’action détaillé.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">Questions fréquentes</span>
+          <h2>Tout ce qu’il faut savoir avant de lancer votre machine à cash</h2>
+        </header>
+        <div class="faq-grid">
+          <article>
+            <h3>Faut-il déjà avoir une grosse audience&nbsp;?</h3>
+            <p>
+              Non. Nous démarrons à partir de 4&nbsp;000 visites mensuelles. Les automations de contenus amplifient ensuite
+              le trafic tout en respectant votre tonalité.
+            </p>
+          </article>
+          <article>
+            <h3>Comment garantissez-vous l’éthique&nbsp;?</h3>
+            <p>
+              Notre charte exclut toute incitation addictive. Les partenaires sont audités, les placements soumis à un
+              comité et le visiteur peut contrôler ses préférences.
+            </p>
+          </article>
+          <article>
+            <h3>Combien de temps pour voir des revenus&nbsp;?</h3>
+            <p>
+              Les premiers euros arrivent dès la première campagne publicitaire, souvent sous 72h. Les commissions
+              d’affiliation et dons suivent dès que l’algorithme identifie les audiences engagées.
+            </p>
+          </article>
+          <article>
+            <h3>Je n’ai pas de contenu, que faire&nbsp;?</h3>
+            <p>
+              Nous générons un calendrier éditorial complet (articles, vidéos, emails) avec validation humaine. Vous
+              n’avez qu’à approuver, la machine publie et monétise.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">CashLoop<span>Éthique</span></div>
+        <p>
+          La plateforme française qui transforme votre audience en revenus passifs grâce à la publicité responsable, à
+          l’affiliation et aux dons.
+        </p>
+      </div>
+      <div>
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#leviers">Leviers</a></li>
+          <li><a href="#simulateur">Simulateur</a></li>
+          <li><a href="#vitrine">Inventaire</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Conformité</h3>
+        <ul>
+          <li>Politique de données transparente</li>
+          <li>Audit partenaires mensuel</li>
+          <li>Plateforme de consentement intégrée</li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-meta">© <span id="year"></span> CashLoop Éthique – Revenus automatiques responsables</p>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
